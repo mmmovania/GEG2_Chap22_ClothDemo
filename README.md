@@ -28,17 +28,25 @@ by Marco Fratarcangeli - 2010
   www.fratarcangeli.net
   
 The demo allows you to change both the computing platform and the number of simulated particles at run time. 
+
 Hold down the left mouse button to rotate the camera. 
+
 Hold down the middle mouse button and move up and down to zoom.
+
 Hold down the right mouse button to chose the collision primitive(s).
 
 The demo starts in CPU mode, showing a grid of 32x32 particles.
+
 Press numbers from 1 to 4 to increase the resolution of the grid, from 32x32 to 256x256.
+
 Press function key from F1 to F4 to switch computing platform:
+
 F1 for CPU; F2 for GLSL; F3 for OpenCL; F4 for CUDA.
 
 Press ‘p’ for entering in profiling mode
+
 Press ‘w’ for toggling wireframe 
+
 Press Space to freeze the simulation
 
-discuss, ask, appreciate and criticize here: marco@fratarcangeli.net
+Discuss, ask, appreciate and criticize here: marco@fratarcangeli.net
