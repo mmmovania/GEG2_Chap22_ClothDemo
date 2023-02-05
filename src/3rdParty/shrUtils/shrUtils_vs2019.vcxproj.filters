@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{a7cd57d3-a1ed-4dd7-bfe0-80bc4299cd79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{e70eed37-0bfc-48ee-9ebb-e44f3e433941}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\cmd_arg_reader.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\shrQATest.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\shrUtils.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cmd_arg_reader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shrUtils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

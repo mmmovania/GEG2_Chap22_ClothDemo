@@ -1,0 +1,30 @@
+﻿  Compiling CUDA source file verlet_cloth.cu...
+  Compiling CUDA source file verlet_cloth_kernel.cu...
+  
+  F:\FreelanceWork\2022\Jeff_GarmentSimulator\MobeenCodeClothSim\1008.geg2\demo\src>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -I./include -I./src -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2/include" -I./include/shrUtils/ -I./include/oclUtils/ -I"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.2\common\inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include" -I"F:\Codes\BulletPhysics\vcpkg\installed\x64-windows\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include"     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_CONSOLE -D_CRT_SECURE_NO_WARNINGS -D_VC80_UPGRADE=0x0600 -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fd.\Release/ /FS   /MT " -o x64\Release\verlet_cloth.cu.obj "F:\FreelanceWork\2022\Jeff_GarmentSimulator\MobeenCodeClothSim\1008.geg2\demo\src\verlet_cloth.cu" 
+  
+  F:\FreelanceWork\2022\Jeff_GarmentSimulator\MobeenCodeClothSim\1008.geg2\demo\src>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -I./include -I./src -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2/include" -I./include/shrUtils/ -I./include/oclUtils/ -I"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.2\common\inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include" -I"F:\Codes\BulletPhysics\vcpkg\installed\x64-windows\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include"     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static    -DWIN32 -DNDEBUG -D_CONSOLE -D_CRT_SECURE_NO_WARNINGS -D_VC80_UPGRADE=0x0600 -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fd.\Release/ /FS   /MT " -o x64\Release\verlet_cloth_kernel.cu.obj "F:\FreelanceWork\2022\Jeff_GarmentSimulator\MobeenCodeClothSim\1008.geg2\demo\src\verlet_cloth_kernel.cu" 
+  verlet_cloth.cu
+  verlet_cloth_kernel.cu
+F:/FreelanceWork/2022/Jeff_GarmentSimulator/MobeenCodeClothSim/1008.geg2/demo/src/verlet_cloth.cu(94): warning C4996: 'cudaThreadSynchronize': was declared deprecated
+  oclManager.cpp
+  Note: including windows.h
+  Note: including math.h
+  Note: including assert.h
+  Note: including shrUtils.h
+  Note: including opencl.h
+  phys_sim.cpp
+  Note: including windows.h
+  Note: including math.h
+  Note: including assert.h
+F:\FreelanceWork\2022\Jeff_GarmentSimulator\MobeenCodeClothSim\1008.geg2\demo\src\include\shrUtils\shrUtils.h(108,1): warning C4005: 'MAX': macro redefinition
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.2\common\inc\helper_cuda.h(617): message : see previous definition of 'MAX'
+  Note: including shrUtils.h
+  Note: including opencl.h
+F:\FreelanceWork\2022\Jeff_GarmentSimulator\MobeenCodeClothSim\1008.geg2\demo\src\src\particle_system.h(339,1): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+F:\FreelanceWork\2022\Jeff_GarmentSimulator\MobeenCodeClothSim\1008.geg2\demo\src\src\particle_system.h(488,1): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+F:\FreelanceWork\2022\Jeff_GarmentSimulator\MobeenCodeClothSim\1008.geg2\demo\src\src\particle_system.h(499,1): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+  reusable.cpp
+F:\FreelanceWork\2022\Jeff_GarmentSimulator\MobeenCodeClothSim\1008.geg2\demo\src\src\reusable.cpp(264,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  phys_sim.vcxproj -> F:\FreelanceWork\2022\Jeff_GarmentSimulator\MobeenCodeClothSim\1008.geg2\demo\src\x64\Release\phys_sim.exe

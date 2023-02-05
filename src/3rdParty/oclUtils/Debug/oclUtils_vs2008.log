@@ -1,0 +1,14 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  oclUtils.cpp
+  Note: including windows.h
+  Note: including math.h
+  Note: including assert.h
+  Note: including shrUtils.h
+  Note: including opencl.h
+F:\FreelanceWork\2022\Jeff_GarmentSimulator\MobeenCodeClothSim\1008.geg2\oclMultiThreads\NVIDIA GPU Computing SDK\OpenCL\common\src\oclUtils.cpp(444,30): warning C4456: declaration of 'compute_units' hides previous local declaration
+F:\FreelanceWork\2022\Jeff_GarmentSimulator\MobeenCodeClothSim\1008.geg2\oclMultiThreads\NVIDIA GPU Computing SDK\OpenCL\common\src\oclUtils.cpp(431,13): message : see declaration of 'compute_units'
+F:\FreelanceWork\2022\Jeff_GarmentSimulator\MobeenCodeClothSim\1008.geg2\oclMultiThreads\NVIDIA GPU Computing SDK\OpenCL\common\src\oclUtils.cpp(448,32): warning C4456: declaration of 'clock_frequency' hides previous local declaration
+F:\FreelanceWork\2022\Jeff_GarmentSimulator\MobeenCodeClothSim\1008.geg2\oclMultiThreads\NVIDIA GPU Computing SDK\OpenCL\common\src\oclUtils.cpp(435,13): message : see declaration of 'clock_frequency'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(F:\FreelanceWork\2022\Jeff_GarmentSimulator\MobeenCodeClothSim\1008.geg2\oclMultiThreads\NVIDIA GPU Computing SDK\OpenCL\common\lib\Win32\oclUtils.lib) does not match the Library's OutputFile property value (F:\FreelanceWork\2022\Jeff_GarmentSimulator\MobeenCodeClothSim\1008.geg2\oclMultiThreads\NVIDIA GPU Computing SDK\OpenCL\common\lib\Win32\oclUtils32D.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1547,5): warning MSB8012: TargetName(oclUtils) does not match the Library's OutputFile property value (oclUtils32D). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  oclUtils_vs2008.vcxproj -> F:\FreelanceWork\2022\Jeff_GarmentSimulator\MobeenCodeClothSim\1008.geg2\oclMultiThreads\NVIDIA GPU Computing SDK\OpenCL\common\lib\Win32\oclUtils.lib
