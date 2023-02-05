@@ -11,3 +11,11 @@ Simply open src/phys_sim.sln and press the play button.
 
 ## Demo Screenshot
 ![image](https://user-images.githubusercontent.com/1354859/216827419-8ce7f1bf-69e7-4435-84fc-2430b15f9703.png)
+
+## Author Details
+Main Author's Publication Page: https://mfratarcangeli.github.io/publication/
+Game Engine Gems 2 Article Page: https://mfratarcangeli.github.io/pdf/geg2.Fratarcangeli.pdf
+Game Engine Gems 2 Article Demo: https://mfratarcangeli.github.io/code/1008.geg2.zip
+
+## About this Repository
+This repository was compiled by Dr. Muhammad Mobeen Movania for the larger good of community.
