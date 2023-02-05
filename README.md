@@ -14,7 +14,7 @@ Simply open src/phys_sim.sln and press the play button.
 ## Author Details
 Main Author's Publication Page: https://mfratarcangeli.github.io/publication/
 
-Game Engine Gems 2 Article Page: https://mfratarcangeli.github.io/pdf/geg2.Fratarcangeli.pdf
+Game Engine Gems 2 Article: https://mfratarcangeli.github.io/pdf/geg2.Fratarcangeli.pdf
 
 Game Engine Gems 2 Article Demo: https://mfratarcangeli.github.io/code/1008.geg2.zip
 
